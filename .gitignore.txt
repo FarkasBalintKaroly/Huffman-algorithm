@@ -1,0 +1,14 @@
+.vs/
+*.user
+
+bin/
+obj/
+
+packages/
+
+*.log
+
+*.tmp
+
+appsettings.json
+appsettings.Development.json

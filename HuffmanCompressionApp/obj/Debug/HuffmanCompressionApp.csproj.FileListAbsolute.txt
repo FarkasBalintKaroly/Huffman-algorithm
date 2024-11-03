@@ -1,0 +1,12 @@
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\bin\Debug\HuffmanCompressionApp.exe.config
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\bin\Debug\HuffmanCompressionApp.exe
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\bin\Debug\HuffmanCompressionApp.pdb
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\obj\Debug\HuffmanCompressionApp.csproj.AssemblyReference.cache
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\obj\Debug\HuffmanCompressionApp.csproj.CoreCompileInputs.cache
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\obj\Debug\HuffmanCompressionApp.exe
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\obj\Debug\HuffmanCompressionApp.pdb
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\bin\Debug\HuffmanCompressionLibrary.dll
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\bin\Debug\HuffmanEncodingLibrary.dll
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\bin\Debug\HuffmanCompressionLibrary.pdb
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\bin\Debug\HuffmanEncodingLibrary.pdb
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionApp\obj\Debug\HuffmanC.56524FC8.Up2Date

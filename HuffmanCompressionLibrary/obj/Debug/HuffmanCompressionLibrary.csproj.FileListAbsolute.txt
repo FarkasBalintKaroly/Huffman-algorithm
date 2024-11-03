@@ -1,0 +1,6 @@
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionLibrary\bin\Debug\HuffmanCompressionLibrary.dll
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionLibrary\bin\Debug\HuffmanCompressionLibrary.pdb
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionLibrary\obj\Debug\HuffmanCompressionLibrary.csproj.AssemblyReference.cache
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionLibrary\obj\Debug\HuffmanCompressionLibrary.csproj.CoreCompileInputs.cache
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionLibrary\obj\Debug\HuffmanCompressionLibrary.dll
+D:\Mernokinfo_msc\Huffman-algorithm\HuffmanCompressionSolution\HuffmanCompressionLibrary\obj\Debug\HuffmanCompressionLibrary.pdb

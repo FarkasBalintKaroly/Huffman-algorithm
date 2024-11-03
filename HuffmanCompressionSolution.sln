@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuffmanEncodingLibrary", "HuffmanEncodingLibrary\HuffmanEncodingLibrary.csproj", "{A9E95808-D8AA-4D4E-BC12-13685593319D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuffmanCompressionLibrary", "HuffmanCompressionLibrary\HuffmanCompressionLibrary.csproj", "{2A000700-62F8-486C-85A0-6919D110F659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuffmanCompressionApp", "HuffmanCompressionApp\HuffmanCompressionApp.csproj", "{BF92E813-0B45-482A-931C-358B333F1EBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{E382C2A3-6464-4FBE-B2E7-AB47A0C0ED78}"
+	ProjectSection(SolutionItems) = preProject
+		ICompressor.cs = ICompressor.cs
+		IHuffmanEncoding.cs = IHuffmanEncoding.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{29D62B03-BFC0-4044-BD02-1E687342BFDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{DB8DCF3C-D951-4E6E-9F78-D42E03252C0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31ED9D8F-3C40-48B6-A77A-F060CDD240B4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore.txt = .gitignore.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9E95808-D8AA-4D4E-BC12-13685593319D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E95808-D8AA-4D4E-BC12-13685593319D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E95808-D8AA-4D4E-BC12-13685593319D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E95808-D8AA-4D4E-BC12-13685593319D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A000700-62F8-486C-85A0-6919D110F659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A000700-62F8-486C-85A0-6919D110F659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A000700-62F8-486C-85A0-6919D110F659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A000700-62F8-486C-85A0-6919D110F659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF92E813-0B45-482A-931C-358B333F1EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF92E813-0B45-482A-931C-358B333F1EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF92E813-0B45-482A-931C-358B333F1EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF92E813-0B45-482A-931C-358B333F1EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9E95808-D8AA-4D4E-BC12-13685593319D} = {29D62B03-BFC0-4044-BD02-1E687342BFDE}
+		{2A000700-62F8-486C-85A0-6919D110F659} = {29D62B03-BFC0-4044-BD02-1E687342BFDE}
+		{BF92E813-0B45-482A-931C-358B333F1EBB} = {DB8DCF3C-D951-4E6E-9F78-D42E03252C0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7050EEFC-5BF9-40DA-81A5-FB1000FCD7E2}
+	EndGlobalSection
+EndGlobal
