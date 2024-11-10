@@ -14,7 +14,7 @@ namespace HuffmanCompressionSolution.Interfaces
         /// <param name="input">String to compress.</param>
         /// <param name="codeTable">Huffman-codetable for the characters.</param>
         /// <returns>The compressed binary coded string.</returns>
-        string Compress(string input, Dictionary<char, string> codeTable);
+        byte[] Compress(string input, Dictionary<char, string> codeTable);
 
         /// <summary>
         /// Decompressing the binary coded string by the codetable.
@@ -22,6 +22,6 @@ namespace HuffmanCompressionSolution.Interfaces
         /// <param name="input">Binary coded string to decompress.</param>
         /// <param name="codeTable">Huffman-codetable for the characters.</param>
         /// <returns>The decompressed string.</returns>
-        string Decompress(string compressedData, Dictionary<char, string> codeTable);
+        string Decompress(byte[] compressedData, Dictionary<char, string> codeTable);
     }
 }
