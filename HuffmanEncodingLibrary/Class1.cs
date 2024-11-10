@@ -39,31 +39,34 @@ namespace HuffmanCompressionSolution.HuffmanEncodingLibrary
                 throw new InvalidOperationException("Frequency table is empty. Call CountCharacterFrequency first.");
 
             // Creating a priority queue to build the Huffman tree
-            var priorityQueue = new SortedSet<HuffmanNode>(Comparer<HuffmanNode>.Create((a, b) =>
-            {
-                int result = a.Frequency.CompareTo(b.Frequency);
-                return result == 0 ? a.Character.CompareTo(b.Character) : result;
-            }));
+            var priorityQueue = new List<HuffmanNode>();
 
             // Initialize the priority queue with leaf nodes based on frequency table
             foreach (var kvp in _frequencyTable)
+            {
                 priorityQueue.Add(new HuffmanNode(kvp.Key, kvp.Value));
+            }
+
+            priorityQueue.Sort((a, b) => a.Frequency.CompareTo(b.Frequency));
+
+
 
             // Build the Huffman tree
             while (priorityQueue.Count > 1)
             {
-                var left = priorityQueue.Min;
-                priorityQueue.Remove(left);
-
-                var right = priorityQueue.Min;
-                priorityQueue.Remove(right);
+                var left = priorityQueue[0];
+                var right = priorityQueue[1];
+                priorityQueue.RemoveRange(0, 2);
 
                 var parent = new HuffmanNode('\0', left.Frequency + right.Frequency, left, right);
+                
                 priorityQueue.Add(parent);
+
+                priorityQueue.Sort((a, b) => a.Frequency.CompareTo(b.Frequency));
             }
 
             // Get the root of the Huffman tree
-            var root = priorityQueue.Min;
+            var root = priorityQueue[0];
             _codeTable.Clear();
             BuildCodeTable(root, "");
 
